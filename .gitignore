@@ -1,0 +1,23 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Streamlit local state & secrets
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Old legacy root model copies (clean versions reside inside models/)
+sif_model.pkl
+sif_lr_model.pkl
+sif_rf_model.pkl
+sif_vectorizer.pkl
